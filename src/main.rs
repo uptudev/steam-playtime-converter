@@ -36,7 +36,7 @@ fn gen_help_template() -> String {
     out
 }
 
-const ABOUT: &'static str = "\x1b[0;1;95;4msteam_runtime_converter\x1b[0m is a simple CLI tool which converts Steam's runtime in hours to seconds, minutes, days, months, and years.";
+const ABOUT: &'static str = "\x1b[0;1;95;4msteam_playtime_converter\x1b[0m is a simple CLI tool which converts Steam's playtime from hours to seconds, minutes, days, months, and years.";
 const AUTHOR: &'static str = "by \x1b[0;93muptu\x1b[0m <\x1b[33muptu@uptu.dev\x1b[0m>";
 
 #[derive(Parser, Debug)]
